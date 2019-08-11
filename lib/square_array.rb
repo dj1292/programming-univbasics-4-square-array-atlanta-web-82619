@@ -3,7 +3,7 @@ def square_array(numbers)
   
   i = 0
  while i < numbers.length 
- newArr << numbers * numbers
+ newArr << numbers[i] * 
  i += 1
  end
  return newArr
